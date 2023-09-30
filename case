@@ -1,0 +1,10 @@
+#!/bin/bash
+
+case $1 in
+pattern) statement1
+;;
+pattern) statement2
+;;
+*) statement3
+;;
+esac
